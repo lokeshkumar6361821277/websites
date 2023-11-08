@@ -1,0 +1,41 @@
+.arrow-animate{
+    transition: all 0.3s;
+    position: relative;
+    cursor: pointer;
+}
+.arrow-animate::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width:100%;
+    height: 0.1em;
+    top: 1.3em;
+    background:white;
+    border-radius: 2px;
+    transform-origin:right;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+.arrow-animate:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+    height: 0.09em;    
+}
+
+.prodiv,.designdiv,.basediv,.mendiv,.cynthi{
+    overflow: hidden;
+}
+#anim1,#anim3,#men,#log{
+    transform: translateY(100%);
+}
+#anim2,#avail,#may,#currently,#protopie,#arrows{
+    opacity: 0;
+}
+.scale{
+    transition: 0.1s ease-in;
+    transform: translateX(10px);
+    transform: scale(0.9);
+    opacity: 0.4;
+
+}
+

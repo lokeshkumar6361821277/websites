@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family:"General Sans";
+    scrollbar-width: none;
+    scroll-behavior: smooth; 
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main,.main{
+    width:94.4vw;
+    margin-inline:auto;
+    height: 100%;
+}
+#hero{
+    margin-top: 2.1em;
+}
+
+.fixed-banner{
+    position: fixed;
+    right: 0px;
+    top: 37vh;
+    width: 3.2em;
+    height: 10.7em;
+    background-color: white;
+    color:black;
+   border-radius: 2px;
+   z-index: -8;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.wrapper h2{
+   position:fixed;
+   right: 0.4em;
+   top: 37.9vh;
+   font-size: 1.7em;
+   font-weight:600;
+}
+.wrapper h4{
+    rotate: -90deg;
+    position: fixed;
+    right: 0.18em;
+    top: 25em;
+    font-size:0.9rem;
+}
+.nav a{
+    color: rgba(255, 255, 255, 0.943);
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 0.03rem;
+}
+.menu{
+    font-size: 1rem;
+    letter-spacing:0.03rem;
+}
+.nav{
+    width:94.4vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0em;
+    height: 5.6em;
+    background: black;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-heading h1{
+    font-size: 10.1vw;
+    opacity:0.64;
+    letter-spacing: 0.3rem;
+}
+.product{
+    margin-top:1.1em;
+    margin-inline-start: 0.1vw;
+    width: fit-content;
+}
+.designer{
+    line-height: 0.4em;
+    margin-inline-start: 10.9vw;
+}
+.based{
+    width:fit-content;
+}
+.based h5{
+    text-align: right;
+    margin-top: 4vw;
+    font-size: 0.95rem;
+    letter-spacing: 0.06em;
+}
+.special{
+    margin-top: 8.2vw;
+}
+.small-headings{
+    font-size: 0.93rem;
+    letter-spacing: 0.06em;
+    text-align: right;
+}
+.s2{
+    margin-top: 1.2vw;
+    margin-bottom: 1vw;
+}
+.animate-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.animate-text a{
+    text-decoration: none;
+    color: white;
+}
+.arrows{
+    max-height: 20px;
+    height: 20px;
+    background-color:rgb(255, 255, 255);
+}
+.box{
+    width:1.6em;
+    height: 1.6em;
+    background-color: rgba(255, 255, 255, 0.662);
+    border-radius: 50%;
+    display: grid;
+    place-content:center;
+}
+.box i{
+    z-index: 999;
+    color: black;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+.middle{
+    margin-inline-end: 12.5em;
+}
+
+.hero-container{
+    width: 86.5vw;
+    height: 10em;
+    margin-top: 11.8em;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.64;
+    padding: 6.2em 0;
+    padding-bottom: 6.57em;
+}
+.hero-container h1{
+    font-size: 5.7rem;
+    letter-spacing: 0.23vw;
+}
+.two{
+    margin-top:0em;
+}
+.three{
+    border-bottom: 0.5px solid white;
+}
+.profile-img{
+    width: 15em;
+    background-position: center;
+    background-size: cover;
+    margin-inline-start: 19em;
+    margin-bottom: 3em;
+}
+.about-me a{
+    text-decoration: none;
+    color: white;
+    border: 0.3px solid white;
+    outline-color: white;
+    border-radius: 1em;
+    padding:0.3em 1em;
+    transition: 0.8s;
+    margin-top:100px;
+}
+.about-me a:hover{
+    background-color: white;
+    color: black;
+}
+
+.persona{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5.7em;
+    margin-top: 11.4em;
+    margin-bottom: 10em;
+    margin-left: 1em;
+}
+.about-me p{
+    margin-inline-end:5.3em;
+    padding-bottom: 1em;
+    font-size: 1.15em;
+    line-height: 1.5em;
+}
+.about-me h5{
+    opacity: 0.64;
+    letter-spacing: 0.01rem;
+}
+.forgot{
+    opacity: 0.6;
+    margin: 0.5em 0;
+    letter-spacing: 0.04rem;
+}
+.subscribe{
+    width: fit-content;
+}
+.footer{
+    margin-top: 9em;
+    margin-bottom: 1.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+}
+.footer ul{
+    display: flex;
+    gap: 3.5em;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li{
+    list-style: none;
+}
+.mini{
+    display: flex;
+    gap: 1.5em;
+}
+.span{
+    color: black;
+}
